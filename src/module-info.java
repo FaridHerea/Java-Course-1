@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author herea
+ *
+ */
+module farid {
+}
