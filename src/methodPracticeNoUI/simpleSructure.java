@@ -4,32 +4,24 @@ import java.util.Scanner;
 
 public class simpleSructure {
 	public static void main(String[] args) {
-		/*
-		 * Writing text
-		 */
+		
+		// Writing text
 		System.out.println("Hello everybody!");
 		System.out.println("Welcome to The Happy Fish program!");
 		
-		/*
-		 * Variables
-		 */
-		
+		// Variables
 		double tunaValue;
 		tunaValue = 5.28;
 		System.out.print("The curent value for tuna is "+tunaValue);
 		System.out.println(".");
 		
-		/*
-		 * User Input
-		 */
+		// User Input
 		Scanner farid = new Scanner(System.in);
 		System.out.println("Type something and I bet that I can repeat after you!");
 		System.out.print(farid.nextLine());
 		System.out.println("... told ya!");
 		
-		/*
-		 * Basic Calculator
-		 */
+		// Basic Calculator
 		Scanner calculator = new Scanner(System.in);
 		int fnum, snum, answer;
 		System.out.println("Now enter number!");
@@ -42,9 +34,7 @@ public class simpleSructure {
 		System.out.print(" is " +answer);
 		System.out.println("! Quick mafs! Big Shaq! Ya no!");
 		
-		/*
-		 * Increment Operators
-		 */
+		// Increment Operators
 		Scanner increment = new Scanner(System.in);
 		int tuna, bass, fish;
 		System.out.println("Enough foolig around, these aren't the droids you're looking for!");
