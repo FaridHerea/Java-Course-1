@@ -61,5 +61,22 @@ public class simpleSructure {
 		System.out.print("Also, I have some new merchandise which will double our bass to a number of " +bass);
 		System.out.println(".");
 		System.out.println("'Cause I'm all about that bass, 'bout that bass, no treble.");
+		
+		//if statement
+		System.out.println("Do you like fish maph?");
+		Scanner yorn = new Scanner(System.in);
+		String ans;
+		ans=yorn.nextLine();
+		if ("yes".equals(ans)){
+			System.out.println("Alrighty than! Onward we go!");
+		} else if ("no".equals(ans)){
+			System.out.println("... sad, but who cares. Onward we go!");
+		} else {
+			System.out.println("Didn't quite get that, but onward we go!");
+		}
+		
+		//logical operators
+	//	System.out.println("Now, lets talk about weight.")
+	//	System.out.println("How much weight does your fish have?")
 	}
 }
